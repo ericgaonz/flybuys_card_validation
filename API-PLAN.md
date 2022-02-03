@@ -170,7 +170,7 @@ Working name for the endpoint is `/flybuys-service/v1`.
 
 ### Topics
 - `flybuys.points-record-created` - used to notify remote services to add records one by one
-**Note** 
+#### **Note** 
 There might be more than thousands of partners who will use this API at the same time, so we use PubSub which allows services to communicate asynchronously by broadcasting events.
 
 
